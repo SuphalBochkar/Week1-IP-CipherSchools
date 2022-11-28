@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<!-- Name in detail -->
+<!-- type = radio -->
+<!-- value -->
+<!--! values will assign in particular name to store in back end-->
+<body>
+    <h1>HTML Forms</h1>
+    <form action="./Assets/Image/Hand.jpeg " method="get"> 
+        <label for="user">UserName:</label>
+        <input type="text" id="user">
+        <br><br>
+
+        <label for="pass">Password:</label>
+        <input type="text" id="pass">
+        <br><br>
+
+        <label for="em">Email : </label>
+        <input type="text" id="em">
+        <br><br>
+        
+        <p>Select Your Gender</p>
+
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" value="Mmale"> <br><br>
+
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="Female"> <br><br>
+
+        <label for="Other">Other</label>
+        <input type="radio" name="gender" id="Other" value="Other">
+
+        <label for="age">Select Your Age Group</label>
+        <select name="asdf" id="age">
+            <option value="">None</option>
+            <option value="5-10">Small</option>
+            <option value="11-21">Med</option>
+            <option value="21-50">Large</option>
+            <option value="50+">Over</option>
+
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+        
+
+    </form>
+</body>
+</html>

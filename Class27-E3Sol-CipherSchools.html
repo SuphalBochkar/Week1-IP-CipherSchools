@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<!-- & For and id to co-relate -->
+<!-- & Name only for one selection -->
+<body>
+    <h1>Sign Up</h1>
+    <form action="./Assets/Image/Hand.jpeg">
+        <!-- ^ Input -->
+        <!--Username--> <!-- ! for linking use for and if--> 
+        <label for="user1"></label>
+        <input type="text" id="user1" placeholder="First Name"> <br>
+        <label for="user2"></label>
+        <input type="text" id="user2" placeholder="Last Name"> <br>
+        <!--Email--> <!-- ! for linking use for and if--> 
+        <label for="mail"></label>
+        <input type="text" id="mail" placeholder="E-Mail"> <br>
+        <!--Password-->
+        <label for="pass"></label>
+        <input type="text" id="pass" placeholder="Password"> <br>
+        <!-- ^ Submit -->
+        <input type="submit" value="Submit">
+        <!-- ^ Radio Button -->
+        <h2>Select Gender</h2>
+        <label for="male">Male</label>
+        <input type="radio" name="gen" id="male"><br>
+        <label for="fe">Female</label>
+        <input type="radio" name="gen" id="fe"><br>
+        <label for="ot">Other</label>
+        <input type="radio" name="gen" id="ot"><br>
+        <!-- ^ DropDown Box -->
+        <label for="con">Enter Country</label>
+        <select name="abc" id="con">
+            <option value="">India</option>
+            <option value="">UK</option>
+            <option value="">USA</option>
+            <option value="">Canada</option>
+        </select><br>
+        <!-- ^ Comment Below -->
+        <label for="c">Write About Yourself</label><br>
+        <textarea name="" id="c" cols="30" rows="10" placeholder="Type Here...."></textarea> <br>
+        <!-- ^ Color -->
+        Pick a color : <input type="color"><br>
+        <!-- ^ Date -->
+        Pick Your DOB: <input type="date" name="" id=""><br>
+                                                     
+    </form>
+</body>
+</html>
